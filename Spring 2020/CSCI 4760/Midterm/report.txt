@@ -1,0 +1,17 @@
+1. The basis of the code is similar to HW2.
+It takes in a text file (user is prompted for the file name), creates a flat map of each line in the file, then makes a map of all the characters in those lines, reduces by key to consolidate the character frequency count, and sorts that frequency list in order.
+From there, the first entry in the list is the most common letter in the encrypted text.
+We then find the number of steps in the alphabet between this character and the most common letter in the English language (starting with 'e', then testing other letters if not a match).
+Every letter in the encrypted text is shifted accordingly (numbers and special characters are left alone).
+The shifted text is printed out.
+A random 5% sample of words from the shifted text are checked to see if they are valid English words.
+If at least 75% of the words are valid English words, (the exact percentage is printed), the cypher is considered to be properly decrypted.
+(This check step can be bypassed by the user if they choose instead to manually check if the text has been decrpyted properly).
+The decrypted text is saved in a new text file, and up to the first 20 words are used to search Google for a possible origin of the decrypted text.
+
+2. See screenshots
+
+2.2 My implementation does not touch formatting or special characters, so any indents, large spacings, etc. remain as they are in the original text file. Only the alpabetic characters are altered.
+(Note: all letters are immediately lowercased and remain lowercased in the final decrypted text file)
+This means that any stray marks (ex. "word]") remain.
+My dictionary check implementation removes special characters before checking if a word is a valid English word, improving its accuracy.
