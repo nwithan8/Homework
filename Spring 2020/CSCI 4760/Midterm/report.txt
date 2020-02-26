@@ -15,4 +15,4 @@ The decrypted text is saved in a new text file, and up to the first 20 words are
 This means that any stray marks (ex. "word]") remain.
 My dictionary check implementation removes special characters before checking if a word is a valid English word, improving its accuracy.
 Note: all words are immediately converted to lowercase early in the program, and remain lowercase throughout, including when saved to a decrypted text file.
-Note: while indents and large spacing remain in the decrypted file, everything is consolidated down to one line.
+Note: while indents and large spacing remain in the decrypted file, everything is consolidated down to one line (Python strings are immutable in-place).
