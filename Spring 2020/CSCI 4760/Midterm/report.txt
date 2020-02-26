@@ -18,6 +18,6 @@ Note: all words are immediately converted to lowercase early in the program, and
 Note: while indents and large spacing remain in the decrypted file, everything is consolidated down to one line (Python strings are immutable in-place).
 
 3. Sources:
-Encrypted-1 - 
-Encrypted-2 - 
-Encrypted-3 - 
+Encrypted-1 - https://studfile.net/preview/393909/page:78/
+Encrypted-2 - https://books.google.com/books?id=7x9yw5DQIOUC&pg=PA92&lpg=PA92&dq=times+of+peace,+are+of+every-day+occurrence+between+contending+armies&source=bl&ots=DkxSINdPlO&sig=ACfU3U2CWQf9gBcVwRpBMFrSjgq3QEDIHg&hl=en&sa=X&ved=2ahUKEwiFkbK53-7nAhXySt8KHSXZBa4Q6AEwAHoECAQQAQ#v=onepage&q=times%20of%20peace%2C%20are%20of%20every-day%20occurrence%20between%20contending%20armies&f=false
+Encrypted-3 - https://www.imsdb.com/scripts/Great-Gatsby,-The.html
