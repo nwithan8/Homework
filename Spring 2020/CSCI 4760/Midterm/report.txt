@@ -16,3 +16,8 @@ This means that any stray marks (ex. "word]") remain.
 My dictionary check implementation removes special characters before checking if a word is a valid English word, improving its accuracy.
 Note: all words are immediately converted to lowercase early in the program, and remain lowercase throughout, including when saved to a decrypted text file.
 Note: while indents and large spacing remain in the decrypted file, everything is consolidated down to one line (Python strings are immutable in-place).
+
+3. Sources:
+Encrypted-1 - 
+Encrypted-2 - 
+Encrypted-3 - 

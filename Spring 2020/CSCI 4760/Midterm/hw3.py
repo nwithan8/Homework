@@ -103,7 +103,7 @@ print("Most common letter: {}".format(letter))
 while not validWords:
     if letterMarkerIndex > len(letterMarkers) - 1:
         print("Exhausted the 10 most common letters. Quitting...")
-        break
+        sys.exit(0)
     letterMarker = letterMarkers[letterMarkerIndex]
     diff = differenceBetweenLetters(letter, letterMarker)
     print("Adjusting for '{}'. Shifting text by {}...".format(letterMarker, diff))
