@@ -12,6 +12,7 @@ The decrypted text is saved in a new text file, and up to the first 20 words are
 2. See screenshots
 
 2.2 My implementation does not touch formatting or special characters, so any indents, large spacings, etc. remain as they are in the original text file. Only the alpabetic characters are altered.
-(Note: all letters are immediately lowercased and remain lowercased in the final decrypted text file)
 This means that any stray marks (ex. "word]") remain.
 My dictionary check implementation removes special characters before checking if a word is a valid English word, improving its accuracy.
+Note: all words are immediately converted to lowercase early in the program, and remain lowercase throughout, including when saved to a decrypted text file.
+Note: while indents and large spacing remain in the decrypted file, everything is consolidated down to one line.
